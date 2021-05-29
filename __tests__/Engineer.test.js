@@ -1,11 +1,11 @@
 const Engineer = require('../lib/Engineer.js');
 
-test('Creates a random engineer object', () => {
-    const engineer = new Engineer();
-  
-    expect(engineer.name).toEqual(expect.any(String));
-    expect(engineer.name.length).toBeGreaterThan(0);
-    expect(engineer.email).toEqual(expect.any(String));
-    expect(engineer.email.length).toBeGreaterThan(0);
+test('Creates a random Engineer object', () => {
+    const engineer = new Engineer(594,'George Contanza','George@NoSoupForYou.com','constanza');
+    
+    console.log(engineer);
+
+    expect(engineer.getGitHub()).toEqual(expect.any(String));
     expect(engineer.getRole()).toEqual('Engineer');
 });
+
