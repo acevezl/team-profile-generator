@@ -66,9 +66,9 @@ Keep doing this until the user says No. Click on the image below to see the app 
 
 [![Watch the app in action](./terminal-screenshot.png)](https://drive.google.com/file/d/1ag7LGkUOy_i2r5YIRQLQgqqFSmL7a0SN/view)
 
-Et voilá, here's the actual final result:
+Et voilá, here's the actual final result (Click on the image to see the working result video):
 
-![Result-Screenshot](./result-screenshot.png)
+[![Result-Screenshot](./result-screenshot.png)](https://drive.google.com/file/d/1BI_SBpotTHgNq_V3OG1X8vNC1FTFFZue/view)
 
 ## Code
 
@@ -82,8 +82,9 @@ Manager class extending Employee:
 
 ## Tests
 
-Test suites were created for all four classes. These are available on the **\__test\__** folder. Here are the test results:
-![Tests](./tests.png)
+Test suites were created for all four classes. These are available on the **\__test\__** folder. Here are the test results (Click on the image to see a video of the tests running):
+
+[![Watch the app in action](./tests.png)](https://drive.google.com/file/d/12m7eNtoZwPxticy5__Usv_N4rvAAV3Zh/view)
 
 Each test validates all properties and methos of each class. For example: Employee.test.js:
 
